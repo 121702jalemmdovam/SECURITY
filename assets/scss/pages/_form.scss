@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    position: relative;
+}
+header{
+    width: 100%;
+    position: absolute;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    nav{
+        width: 85%;
+        margin: auto;
+        .navButton{
+            background-color: white;
+        }
+        .collapseDiv{
+            justify-content: flex-end;
+            .navItem{
+                color: white !important;
+                font-size: 15px;
+            }
+        }
+    }
+}
+#Security{
+    width: 100%;
+    height: 650px;
+    padding: 30px;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('https://preview.colorlib.com/theme/security/img/header-bg.jpg') ;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .container{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+        height: auto;
+       .SecurityItem{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 20px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: flex-start;
+        span{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 18px;
+            color: white;
+            font-weight: 400;
+        }
+        h1{
+            font-size: 50px;
+            color: white;
+            font-weight: 600;
+        }
+        p{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            width: 80%;
+            font-size: 16px;
+            color: white;
+        }
+        button{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            width: 180px;
+            height: 50px;
+            background-color:#FAB700 ;
+            border: none;
+            color: white;
+            font-weight: 700;
+            &:hover{
+                cursor: pointer;
+                background-color: transparent;
+                border: 2px solid #FAB700 ;
+                color: #FAB700;
+            }
+        }
+       } 
+    }
+
+}
+#Services{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        .ServicesHeader{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .h1{
+                font-size: 30px;
+                font-weight: 600;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            span{
+                font-size: 16px;
+                color: gray;
+
+            }
+            
+        }
+        .ServicesCard{
+            width: 100%;
+            height: auto;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-direction: column;
+            padding: 20px;
+            background-color: #F9F9FF;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            &:hover{
+                cursor: pointer;
+                background-color: #FAB700;
+                color: white;
+                p{
+                    color: white;
+                }
+            }
+            img{
+                width: 100%;
+                height: auto;
+            }
+            h4{
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            p{
+                color: gray;
+                font-weight: 300;
+            }
+        }
+    }
+}
+#Features{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    background-color: #F9F9FF;
+    .container{
+       margin-top: 20px;
+       margin-bottom: 20px;
+       .FeaturesHeader{
+        margin-top: 20px;
+       margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        h1{
+            font-size: 40px;
+        }
+        span{
+            font-size: 17px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            color: gray;
+        }
+       }
+       .FeaturesCard{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 20px;
+        background-color: white;
+        transition: 1s;
+        &:hover{
+            transition: 1s;
+            background-color: #FAB700;
+            cursor: pointer;
+        }
+        .head{
+            display: flex;
+            gap: 20px;
+            padding: 10px;
+            i{
+                font-size: 25px;
+                color: gray;
+            }
+        }
+        p{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            color: gray;
+        }
+       }
+    }
+}
+footer{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    border-top: 1px solid rgb(228, 220, 220);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .container{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        .foot{
+            display: flex;
+            align-items: center;
+            justify-content: center; 
+        }
+    }
+}
+#FormMethod{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    .container{
+        margin-top: 20px;
+       form{
+        width: 50%;
+       }
+    }
+}
+#formDisplay {
+    .container {
+        #display {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+
+            .box {
+                width: 250px;
+                padding: 25px;
+                background-color: bisque;
+                box-shadow: 0 1px 10px rgb(0, 0, 0.2);
+
+                span {
+                    font-weight: 500;
+                    font-size: 18px;
+                }
+
+                button {
+                    color: #fff;
+                    background-color:brown;
+                    transition: 1s;
+                    padding: 10px;
+                    border-radius: 20px;
+                    display: flex;
+                    gap: 10px;
+                    font-weight: 600;
+                    justify-content: center;
+                    align-items: center;
+
+                    &:hover {
+                       
+                        color: white;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}
